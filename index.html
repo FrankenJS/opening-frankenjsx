@@ -1,40 +1,341 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+      rel="stylesheet"
+    />
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/frankenjs.css" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Welcome -->
+        <section
+					data-autoslide="1000"
+          data-auto-animate
+          data-background="assets/frankenjs-slides-footer.svg"
+          data-background-size="100%"
+          data-background-position="bottom"
+          data-background-color="#fff"
+        >
+          <p style="font-size: 1.5em">Welcome, to...</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </section>
+        <section
+          data-auto-animate
+					data-autoslide="5000"
+          data-background="assets/frankenjs-slides-footer.svg"
+          data-background-size="100%"
+          data-background-position="bottom"
+          data-background-color="#fff"
+        >
+          <p style="font-size: 1.5em">Welcome, to...</p>
+          <h1>JScalation</h1>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </section>
+        <!-- Your Crew -->
+        <section
+				data-autoslide="1000"
+          data-background="assets/frankenjs-slides-footer.svg"
+          data-background-size="100%"
+          data-background-position="bottom"
+          data-background-color="#fff"
+        >
+          <h2>Your Crew</h2>
+          <div style="display: flex">
+            <div style="flex: 1">
+              <div class="fragment fade-up" data-autoslide="250">
+                <img
+                  src="assets/peter-mueller.jpeg"
+                  height="170"
+                  style="border-radius: 50%; border: 5px solid #ff2555"
+                />
+                <p style="font-size: 0.7em">Peter Müller</p>
+              </div>
+            </div>
+            <div style="flex: 1">
+              <div class="fragment fade-up" data-autoslide="250">
+                <img
+                  src="assets/sebastian-metzger.jpeg"
+                  height="170"
+                  style="border-radius: 50%; border: 5px solid #ff2555"
+                />
+                <p style="font-size: 0.7em">Sebastian Metzger</p>
+              </div>
+            </div>
+            <div style="flex: 1">
+              <div class="fragment fade-up" data-autoslide="8000">
+                <img
+                  src="assets/ahmed-moustafa.jpeg"
+                  height="170"
+                  style="border-radius: 50%; border: 5px solid #ff2555"
+                />
+                <p style="font-size: 0.7em">Ahmed Moustafa</p>
+              </div>
+            </div>
+          </div>
+          <p>&nbsp;</p>
+        </section>
+        <!-- Sponsors -->
+        <section>
+          <section
+						data-autoslide="3000"
+            data-transition="slide-in"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <h2>Sponsors &amp; Curators</h2>
+          </section>
+          <section
+						data-autoslide="8000"
+            data-transition="slide-in"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/nuernberger-versicherung.svg" height="180" />
+            <p>Hosting &amp; Catering</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+						data-autoslide="8000"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/google.svg" height="180" />
+            <p>Travel Sponsor</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+						data-autoslide="8000"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/nx.png" height="180" />
+            <p>Travel Sponsor</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="8000"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/qupaya-horizontal.svg" height="180" />
+            <p>Curator, Travel &amp; Hotel Sponsor</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="8000"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/snapaddy.svg" height="180" />
+            <p>Curator</p>
+            <p>&nbsp;</p>
+          </section>
+        </section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+        <!-- Speakers -->
+        <section>
+          <section
+					data-autoslide="2000"
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <h2>Speakers</h2>
+          </section>
+          <section
+					data-autoslide="1000"
+            data-transition="slide-in"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/max-kless-round.png" height="250" />
+            <p>Max Kless, Nx</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="5000"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/max-kless-round.png" height="250" />
+            <h4>Upgrade Your Toolbox with IDE Extensions</h4>
+            <p>Max Kless, Nx</p>
+            <p>&nbsp;</p>
+          </section>
+        </section>
+        <section>
+          <section
+					data-autoslide="1000"
+            data-transition="slide-in"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/ergun-erdogmus-round.png" height="250" />
+            <p>Ergün Erdoğmuş, Google Chrome</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="5000"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/ergun-erdogmus-round.png" height="250" />
+            <h4>
+              Beyond JavaScript: The CSS Revolution in Dynamic Web Experiences
+            </h4>
+            <p>Ergün Erdoğmuş, Google Chrome</p>
+            <p>&nbsp;</p>
+          </section>
+        </section>
+        <section>
+          <section
+					data-autoslide="1000"
+            data-transition="slide-in"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/sonja-feitsch-round.png" height="250" />
+            <p>Sonja Feitsch, E2N</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="5000"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/sonja-feitsch-round.png" height="250" />
+            <h4>
+              Web development like 15 years ago: the new full-stack frameworks
+            </h4>
+            <p>Sonja Feitsch, E2N</p>
+            <p>&nbsp;</p>
+          </section>
+        </section>
+        <section>
+          <section
+					data-autoslide="1000"
+            data-transition="slide-in"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/andreas-tennert-round.png" height="250" />
+            <p>Andreas Tennert, qupaya</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="5000"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/andreas-tennert-round.png" height="250" />
+            <h4>JS & USB - Connecting All the Things to the Browser</h4>
+            <p>Andreas Tennert, qupaya</p>
+            <p>&nbsp;</p>
+          </section>
+        </section>
+        <section>
+          <section
+					data-autoslide="1000"
+            data-transition="slide-in"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/tobias-koppers-round.png" height="250" />
+            <p>Tobias Koppers, Vercel</p>
+            <p>&nbsp;</p>
+          </section>
+          <section
+					data-autoslide="5000"
+            data-auto-animate
+            data-background="assets/frankenjs-slides-footer.svg"
+            data-background-size="100%"
+            data-background-position="bottom"
+            data-background-color="#fff"
+          >
+            <img src="assets/tobias-koppers-round.png" height="250" />
+            <h4>Rethinking Bundling Strategies</h4>
+            <p>Tobias Koppers, Vercel</p>
+            <p>&nbsp;</p>
+          </section>
+        </section>
+      </div>
+    </div>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+				loop: true,
+				controls: false,
+				autoAnimateDuration: 0.5,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
